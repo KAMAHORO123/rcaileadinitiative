@@ -182,9 +182,9 @@ export default function Home() {
                   School Fee Support
                 </h3>
                 <p className="mb-4 text-gray-600 dark:text-gray-300">
-                  Through collective contributions, we ensure every student at
-                  RCA has the opportunity to stay in school regardless of
-                  financial barriers.
+                  Through collective contributions, we ensure every student in
+                  our community has the opportunity to stay in school regardless
+                  of financial barriers.
                 </p>
                 <Button
                   asChild
