@@ -26,9 +26,9 @@ export const donationEmailTemplate = (donorName: string, amount: number, payment
             </ul>
             <p>To complete your donation, please follow these steps:</p>
             <ol>
-                <li>Check your email for payment instructions</li>
-                <li>Complete the payment using the provided details</li>
-                <li>Keep the transaction reference for your records</li>
+                <li>Send your donation to MTN Mobile Money number +250796060684 or BK Bank Account : 100194326248</li>
+                <li>Send the screenshot of the payment to ileadinitiativeteam@gmail.com</li>
+                <li>We will verify the payment and update your donation status</li>
             </ol>
             <p>If you have any questions or need assistance, please don't hesitate to contact us.</p>
             <p>Thank you for making a difference!</p>

@@ -102,6 +102,15 @@ export async function POST(request: Request) {
       // Get SVG logo
       const svgLogo = getSvgLogo();
 
+      // Check email configuration
+      if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+        console.error('Email configuration missing');
+        return NextResponse.json(
+          { message: 'Subscribed to newsletter, but email service is not configured.' },
+          { status: 200 }
+        );
+      }
+
       // Create email transporter
       const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
@@ -119,7 +128,10 @@ export async function POST(request: Request) {
         console.log('Email transporter verified successfully');
       } catch (error) {
         console.error('Email transporter verification failed:', error);
-        throw new Error('Email configuration is invalid');
+        return NextResponse.json(
+          { message: 'Subscribed to newsletter, but email service is not configured properly.' },
+          { status: 200 }
+        );
       }
 
       // Email to subscriber
@@ -184,7 +196,6 @@ export async function POST(request: Request) {
         );
       } catch (error) {
         console.error('Error sending emails:', error);
-        // Still return success as the subscription was added to database
         return NextResponse.json(
           { message: 'Subscribed to newsletter, but there was an error sending confirmation emails.' },
           { status: 200 }
