@@ -1,4 +1,4 @@
-# iLead Initiative
+#rca iLead Initiative
 
 ## Project Overview
 
@@ -55,7 +55,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any queries or support, please reach out to us at [your-email@example.com]
+For any queries or support, please reach out to us at [kamahorolinda@gmail.com]
 
 ## Acknowledgments
 
