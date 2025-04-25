@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "init-db": "node lib/init-db.js",
+    "recreate-newsletter": "node lib/recreate-newsletter-table.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
