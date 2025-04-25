@@ -362,7 +362,7 @@ export default function About() {
                   <div className="flex flex-wrap items-center gap-4">
                     <div className="flex space-x-3">
                       <Link
-                        href="https://linkedin.com/in/bahati"
+                        href="https://linkedin.com/in/rukundo-bahati"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-bronze-600 dark:text-gray-300 dark:hover:text-gold-500"
@@ -370,7 +370,7 @@ export default function About() {
                         <Linkedin className="h-5 w-5" />
                       </Link>
                       <Link
-                        href="https://twitter.com/bahati"
+                        href="https://x.com/BahatiBaba"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-bronze-600 dark:text-gray-300 dark:hover:text-gold-500"
@@ -378,7 +378,7 @@ export default function About() {
                         <Twitter className="h-5 w-5" />
                       </Link>
                       <Link
-                        href="https://facebook.com/bahati"
+                        href="https://www.facebook.com/rukundo.bahatisamuel.3"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-bronze-600 dark:text-gray-300 dark:hover:text-gold-500"
@@ -386,7 +386,7 @@ export default function About() {
                         <Facebook className="h-5 w-5" />
                       </Link>
                       <Link
-                        href="https://instagram.com/bahati"
+                        href="https://www.instagram.com/ruku_nd0/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-bronze-600 dark:text-gray-300 dark:hover:text-gold-500"
