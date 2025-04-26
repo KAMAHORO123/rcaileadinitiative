@@ -126,11 +126,8 @@ export default function About() {
                     CEO & Founder
                   </p>
                   <p className="mb-4 text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
-                    Linda is the visionary behind RCA ILEAD Initiative. With a
-                    passion for youth empowerment and education, she founded the
-                    organization to create opportunities for young people in
-                    Rwanda. Her leadership and dedication have been instrumental
-                    in shaping our mission and impact.
+                    Linda is the visionary behind RCA ILEAD Initiative. As a
+                    student at Rwanda Coding Academy,
                   </p>
                   <div className="flex flex-wrap items-center gap-4">
                     <div className="flex space-x-3">
@@ -202,12 +199,8 @@ export default function About() {
                     Co-Founder & CFO
                   </p>
                   <p className="mb-4 text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
-                    Nelson brings extensive financial expertise to RCA ILEAD
-                    Initiative. As CFO, he ensures the organization's financial
-                    sustainability and growth, enabling us to expand our
-                    programs and reach more youth in Rwanda. His strategic
-                    vision and commitment to our mission have been crucial to
-                    our success.
+                    Nelson brings financial expertise and software development
+                    skills to RCA ILEAD Initiative.
                   </p>
                   <div className="flex flex-wrap items-center gap-4">
                     <div className="flex space-x-3">
@@ -279,10 +272,8 @@ export default function About() {
                     Assistant & Co-Founder
                   </p>
                   <p className="mb-4 text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
-                    Livia plays a crucial role in supporting our daily
-                    operations and ensuring smooth communication between team
-                    members. Her organizational skills and attention to detail
-                    help us maintain efficiency in all our initiatives.
+                    Livia is a talented software developer who supports our
+                    daily operations and team communication.
                   </p>
                   <div className="flex flex-wrap items-center gap-4">
                     <div className="flex space-x-3">
@@ -354,10 +345,8 @@ export default function About() {
                     Advisor & Co-Founder
                   </p>
                   <p className="mb-4 text-sm text-gray-600 dark:text-gray-300 line-clamp-3">
-                    Bahati brings valuable expertise and guidance to our
-                    organization. As an advisor, he helps shape our strategic
-                    direction and ensures we're making the greatest possible
-                    impact in our community.
+                    Bahati provides strategic guidance to our organization with
+                    experience in community leadership.
                   </p>
                   <div className="flex flex-wrap items-center gap-4">
                     <div className="flex space-x-3">
