@@ -93,7 +93,7 @@ export default function Footer() {
                   <span className="sr-only">Facebook</span>
                 </Link>
                 <Link
-                  href="https://twitter.com/rcailead"
+                  href="https://x.com/iIeadinitiative"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-8 w-8 items-center justify-center rounded-full bg-gold-100 text-bronze-600 transition-colors hover:bg-bronze-600 hover:text-white dark:bg-gray-900 dark:text-gold-500 dark:hover:bg-bronze-600 dark:hover:text-white"
